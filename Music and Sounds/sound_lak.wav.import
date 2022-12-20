@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/sound_lak.wav-8562a8f85363f42033418215d694e290.sample"
+
+[deps]
+
+source_file="res://Music and Sounds/sound_lak.wav"
+dest_files=[ "res://.import/sound_lak.wav-8562a8f85363f42033418215d694e290.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
