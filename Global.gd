@@ -4,6 +4,7 @@ var worldScene = "res://World.tscn"
 var menuScene = preload("res://Menu.tscn")
 var introScene = "res://INTRO/INTRO.tscn"
 var inforScene = "res://Infor/Infor.tscn"
+var caveScene = "res://Cave/Cave.tscn"
 
 var current_scene = null
 var new_scene = null
@@ -23,6 +24,7 @@ func goto_world_scene():
 	
 func _deferred_goto_scene(scene):
 #	current_scene.free()
+#	get_tree().change_scene("res://Menu.tscn")
 	current_scene.queue_free()
 	current_scene = scene.instance()
 #	get_tree().get_root().add_child(current_scene)

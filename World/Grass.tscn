@@ -30,6 +30,7 @@ shape = SubResource( 1 )
 position = Vector2( 7.08304, 9.87337 )
 scale = Vector2( 1, 0.593 )
 shape = SubResource( 2 )
+
 [connection signal="area_entered" from="HurtBox" to="." method="_on_HurtBox_area_entered"]
 
 [editable path="HurtBox"]

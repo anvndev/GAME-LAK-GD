@@ -24,6 +24,7 @@ margin_top = 83.0
 margin_right = 200.0
 margin_bottom = 103.0
 rect_pivot_offset = Vector2( 18, 10 )
+focus_neighbour_top = NodePath("../QuitButton")
 text = "START"
 
 [node name="OptionsButton" type="Button" parent="."]
@@ -40,6 +41,7 @@ margin_top = 135.0
 margin_right = 199.0
 margin_bottom = 155.0
 rect_pivot_offset = Vector2( 18, 10 )
+focus_neighbour_bottom = NodePath("../StartButton")
 text = "Quit"
 
 [node name="Main_MS" type="AudioStreamPlayer" parent="."]

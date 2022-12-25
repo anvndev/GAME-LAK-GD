@@ -10,3 +10,7 @@ func destroy_grass():
 
 func _on_HurtBox_area_entered(area):
 	destroy_grass()
+
+
+func _on_CaveDoor_body_exited(body):
+	pass # Replace with function body.
