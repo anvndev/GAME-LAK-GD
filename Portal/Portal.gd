@@ -17,7 +17,7 @@ func _ready():
 
 
 func _on_Portal_body_entered(body, extra_arg_0):
-	if body is PlayerStats:
+	if body is Player:
 		if  to_scene == "":
 			push_error("Error changing scenes: to_scene has no assigned scene")
 			return false
