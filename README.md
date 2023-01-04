@@ -5,9 +5,10 @@
 	<img src="https://raw.githubusercontent.com/anvndev/GAME-LAK-GD/main/INTRO/LAK_LOGO.png" width="600">
 </p>
 ---------
+
 ## ✓ Player demo
 
-````````
+```Short
 onready var animationPlayer = $AnimationPlayer
 onready var animationTree = $AnimationTree
 onready var animationState = animationTree.get("parameters/playback")
@@ -25,4 +26,4 @@ enum {
 var state = MOVE
 var roll_vector = Vector2.DOWN
 var stats = PlayerStats
-``````
+```
