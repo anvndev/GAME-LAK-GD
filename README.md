@@ -4,7 +4,7 @@
 <p align="center">
 	<img src="https://raw.githubusercontent.com/anvndev/GAME-LAK-GD/main/INTRO/LAK_LOGO.png" width="600">
 </p>
----------
+
 
 ## ✓ Player demo
 
@@ -27,3 +27,6 @@ var state = MOVE
 var roll_vector = Vector2.DOWN
 var stats = PlayerStats
 ```
+<p align="center">
+	<img src="https://raw.githubusercontent.com/anvndev/GAME-LAK-GD/main/INTRO/main_bg.png" width="600">
+</p>
